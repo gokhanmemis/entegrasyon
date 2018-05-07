@@ -33,9 +33,9 @@ public class Bittrex {
 		*/
 		
 		ExchangeSpecification exSpec = new ExchangeSpecification(BittrexExchange.class);
-		exSpec.setUserName("gokhanaycangokayilay");
-		exSpec.setApiKey("c7d08d18a74b4f13812c70e6eaa04834");
-		exSpec.setSecretKey("0b22f7adc5d44adb9960aae0f3d772bd");
+		exSpec.setUserName("--------------");
+		exSpec.setApiKey("--------------");
+		exSpec.setSecretKey("--------------");
 		Exchange Bittrex = ExchangeFactory.INSTANCE.createExchange(exSpec);
 
 		// Get the account information

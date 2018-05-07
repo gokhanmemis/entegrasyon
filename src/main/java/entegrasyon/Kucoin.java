@@ -22,9 +22,9 @@ public class Kucoin {
 	public static void main(String[] args) throws IOException {
 		
 		ExchangeSpecification exSpec = new ExchangeSpecification(KucoinExchange.class);
-	    exSpec.setApiKey("5aa950603f705c1142b5afdd");
-	    exSpec.setSecretKey("d8911725-6558-440c-a83e-7fb84f124e50");
-		exSpec.setUserName("gokhanmemis@gmail.com");
+	    exSpec.setApiKey("--------------");
+	    exSpec.setSecretKey("--------------");
+		exSpec.setUserName("--------------");
 
 		Exchange kucoin = ExchangeFactory.INSTANCE.createExchange(exSpec);
 		MarketDataService marketDataService = kucoin.getMarketDataService();

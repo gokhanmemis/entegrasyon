@@ -24,9 +24,9 @@ public class Binance {
 	public static void main(String[] args) throws IOException {
 		
 		ExchangeSpecification exSpec = new ExchangeSpecification(BinanceExchange.class);
-		exSpec.setUserName("gokhanaycangokayilay");
-		exSpec.setApiKey("6qiuA0iFY9hp5vqPjV44jChF9X3mavoMGEVglRUJLxYZ1o5rHpOVAHha4mhFNcUD");
-		exSpec.setSecretKey("rqoZLa0Ox6Wbp0WVMG4HJRUyxChnl20aiIG4S0G0cNqHIUjI50Kd8LWrOvZcB1iU");
+		//exSpec.setUserName("gokhanaycangokayilay");
+		exSpec.setApiKey("--------------");
+		exSpec.setSecretKey("--------------");
 
 		Exchange Binance = ExchangeFactory.INSTANCE.createExchange(exSpec);
 		MarketDataService marketDataService = Binance.getMarketDataService();

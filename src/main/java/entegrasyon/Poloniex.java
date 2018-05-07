@@ -33,9 +33,9 @@ public class Poloniex {
 		*/
 		
 		ExchangeSpecification exSpec = new ExchangeSpecification(PoloniexExchange.class);
-		exSpec.setUserName("gokhanmemis@gmail.com");
-		exSpec.setApiKey("F83JPQA1-YGUP1HXY-GE4BBS5I-2HDXOS2U");
-		exSpec.setSecretKey("0cbf92c1c37d0c44ddfea09c4d6b49858b6c91e588f2d343bf3cde61ad5bdc3117709612465bbba089757cff60139e53fb94445e1bc7b3483572623660920782");
+		exSpec.setUserName("---------");
+		exSpec.setApiKey("--------------");
+		exSpec.setSecretKey("--------------");
 		Exchange poloniex = ExchangeFactory.INSTANCE.createExchange(exSpec);
 
 		// Get the account information
